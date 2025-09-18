@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Cards Example</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="p-4">
 
@@ -13,7 +13,7 @@
 
   <div class="card-deck">
 
-    <!-- First Card -->
+    <!-- Card 1 -->
     <div class="card mb-3">
       <div class="card-header">
         New Features
@@ -21,39 +21,42 @@
       <div class="card-body">
         <h5 class="card-title">Mobile and Tablet support</h5>
         <p class="card-text">
-          With this new update you will be able to sync your work across large number of platforms.
+          With this new update you will be able to sync your work across a large number of platforms.
         </p>
         <a href="#" class="btn btn-primary">Read more</a>
       </div>
     </div>
 
-    <!-- Second Card -->
-    <div class="card mb-3">
-      <div class="card-header bg-danger text-white">
+    <!-- Card 2 (Alert with bg-danger) -->
+    <div class="card mb-3 bg-danger text-white">
+      <div class="card-header">
         Alert
       </div>
       <div class="card-body">
         <h5 class="card-title">Node Dead</h5>
-        <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
+        <p class="card-text">
+          Node 5 (east-us) is offline for last 12 days.
+        </p>
       </div>
     </div>
-  </div>
 
-  <!-- Third Card -->
-  <div class="card mt-3">
-    <img class="card-img-top" src="https://picsum.photos/800/300" alt="Ocean Image">
-    <div class="card-body">
-      <h5 class="card-title">President under Pressure</h5>
-      <p class="card-text">
-        The US president is under pressure to respond to a widespread cyber-attack linked to China.
-      </p>
-      <p class="card-text">
-        <small class="text-muted">Last updated 12 mins ago</small>
-      </p>
+    <!-- Card 3 (With image) -->
+    <div class="card mb-3">
+      <img src="https://picsum.photos/800/300" class="card-img-top" alt="Sample image">
+      <div class="card-body">
+        <h5 class="card-title">President under Pressure</h5>
+        <p class="card-text">
+          The US president is under pressure to respond to a widespread cyber-attack linked to China.
+        </p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 12 mins ago</small>
+        </p>
+      </div>
     </div>
+
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS (optional for functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
